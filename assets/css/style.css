@@ -216,6 +216,15 @@ body {
   height: 138.88px;
   background-color: rgba(255, 255, 255, 0.72);
 }
+.info-box2 {
+  position: absolute;
+  bottom: 15%;
+  right: 10%;
+  left: 20%;
+  width: 294px;
+  height: 138.88px;
+  background-color: rgba(255, 255, 255, 0.72);
+}
 .description {
   font-weight: 600;
   display: flex;
@@ -942,7 +951,7 @@ body {
   object-fit: cover;
 }
 .footer {
-  height: 367px;
+  /* height: 367px; */
   width: 1440px;
   margin: 0 auto;
   border-top: 1px solid #d8d8d8;
@@ -988,4 +997,244 @@ body {
   background-color: #e89f71;
   display: inline-block;
   border: none;
+}
+/*Mobile*/
+@media only screen and (max-width: 739px) {
+  .header {
+    width: 739px;
+  }
+  .top-nav {
+    right: 432px;
+    justify-content: center;
+  }
+  .menu {
+    display: none;
+  }
+  .title {
+    display: none;
+  }
+  .search-bar {
+    left: 60px;
+  }
+  .search-bar input {
+    width: 228px;
+  }
+  .gallery {
+    width: 739px;
+  }
+  .slider {
+    width: 739px;
+  }
+  .slider .slide img {
+    width: 739px;
+  }
+  .hero-content {
+    display: none;
+  }
+  .info-box {
+    display: none;
+  }
+  .info-box2 {
+    display: none;
+  }
+  .arrow {
+    left: 154px;
+    right: 154px;
+  }
+  .feature {
+    margin-top: 40px;
+  }
+  .feature ul {
+    flex-direction: column;
+  }
+  .content-feature p {
+    display: none;
+  }
+  .content-feature h4 {
+    font-size: 16px;
+  }
+  .feature ul li {
+    margin-bottom: 12px;
+  }
+  .our-products {
+    margin-top: 40px;
+    width: 739px;
+  }
+  .our-products h2 {
+    position: relative;
+    left: 95px;
+    justify-content: start;
+    font-size: 36px;
+  }
+  .product-items > :nth-child(1) {
+    display: none;
+  }
+  .product-items > :nth-child(2) {
+    display: none;
+  }
+  .product-items > :nth-child(3) {
+    display: none;
+  }
+  .product-items {
+    position: relative;
+    left: 64px;
+  }
+  .Inspirations {
+    width: 739px;
+    flex-direction: column;
+    padding: 0;
+  }
+  .Inspirations-content {
+    padding: 30px;
+  }
+  .Inspirations-content h2 {
+    font-size: 32px;
+  }
+  .Inspirations-content p {
+    display: none;
+  }
+  .Inspirations-content button {
+    margin-top: 10px;
+  }
+  .Inspirations-img {
+    left: 60px;
+    bottom: 48px;
+  }
+  .Inspirations-img img {
+    width: 100%;
+    height: 320px;
+  }
+  .Inspirations-img-content {
+    display: none;
+  }
+  .Inspirations-img i {
+    display: none;
+  }
+  .tips-and-tricks {
+    width: 416px;
+  }
+  .img-top-1 {
+    display: none;
+  }
+  .img-top-2 {
+    display: none;
+  }
+  .img-right-bottom {
+    display: none;
+  }
+  .img-bottom {
+    bottom: -70px;
+  }
+  .footer {
+    width: 739px; 
+    flex-direction: column ;
+  }
+}
+/*Tablet*/
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+  .header {
+    width: 1023px;
+  }
+  .top-nav {
+    justify-content: start;
+    left: 136px;
+  }
+  .gallery {
+    transform: translate(-40%, 0);
+  }
+  .menu {
+    display: none;
+  }
+  .search-bar input {
+    width: 354px;
+  }
+  .slider {
+    width: 1023px;
+  }
+  .slider .slide img {
+    width: 1023px;
+  }
+  .hero-content {
+    display: none;
+  }
+  .info-box {
+    right: 20%;
+  }
+  .arrow {
+    left: 30px;
+    right: 30px;
+  }
+  .feature {
+    margin: none;
+    width: 1023px;
+    position: relative;
+    left: 24px;
+  }
+  .content-feature h4 {
+    font-size: 14px;
+  }
+  .content-feature p {
+    display: none;
+  }
+  .content-feature {
+    margin-left: 12px;
+  }
+  .our-products {
+    width: 1023px;
+  }
+  .product-items {
+    width: 970px;
+    justify-content: space-evenly;
+  }
+  .product-items > :nth-child(1) {
+    display: none;
+  }
+  .btn-show-more {
+    position: relative;
+  }
+  .Inspirations {
+    width: 1023px;
+  }
+  .Inspirations-content {
+    padding: 0;
+  }
+  .Inspirations-content p {
+    padding: 0 21px 0 0;
+  }
+  .Inspirations-img i {
+    right: 28px;
+  }
+  .tips-and-tricks {
+    width: 1023px;
+  }
+  .wrapper {
+    width: 900px;
+    left: -20px;
+  }
+  .share {
+    width: 1023px;
+  }
+  .img-top-1 {
+    width: 230px;
+    height: 350px;
+  }
+  .img-bottom-1 {
+    width: 270px;
+    height: 355px;
+  }
+  .img-top-2 {
+    width: 344px;
+    height: 290px;
+  }
+  .img-bottom-2 {
+    width: 303px;
+    height: 221px;
+  }
+  .img-center {
+    display: none;
+  }
+  .footer {
+    width: 1023px;
+    flex-direction: column;
+  }
 }
